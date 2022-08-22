@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="imagem-form">
+            <img src="../img/undraw_shopping_re_hdd9.svg" alt="">
+        </div>
+
+        <div class="formulario">
+            <form action="#">
+                <div class="cabecalho-form">
+                    <h1>Cadastre-se</h1>
+                    
+                    <div class="botao-login">
+                    <button><a href="#">Entrar</a></button>
+                </div>
+                </div>
+                <div class="grupo-input">
+                <div class="caixa-input">
+                    <label for="nome">Primeiro nome</label>
+                    <input id="nome" type="text" placeholder="Nome" required>
+                </div>
+
+                <div class="caixa-input">
+                    <label for="sobrenome">Sobrenome</label>
+                    <input id="sobrenome" type="text" placeholder="Sobrenome" required>
+                </div>
+
+                <div class="caixa-input">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" placeholder="Email" required>
+                </div>
+
+                <div class="caixa-input">
+                    <label for="celular">Celular</label>
+                    <input id="celular" type="number" placeholder="(XX) XXXXX-XXXX" required>
+                </div>
+                    <div class="caixa-input">
+                        <label for="senha">Senha</label>
+                        <input id="senha" type="text" placeholder="Senha" required>
+                    </div>
+
+                    <div class="caixa-input">
+                        <label for="confirme-senha">Confirme sua senha</label>
+                        <input id="confirme-senha" type="text" placeholder="Confirme sua senha" required>
+                    </div>
+                    </div>
+                    
+                    <div class="genero-titulo">
+                    <h6>Gênero</h6>
+                </div>
+            
+                <div class="genero-grupo"> 
+                    <div class="genero-input">
+                        <input type="radio" name="genero" id="feminino">
+                        <label for="feminino">Feminino</label>
+                        
+                        <input type="radio" name="genero" id="masculino">
+                        <label for="mulher">Masculino</label>
+
+                        <input type="radio" name="genero" id="outros">
+                        <label for="outros">Outros</label>
+
+                        <input type="radio" name="genero" id="none">
+                        <label for="noner">Prefiro não dizer</label>
+                    </div>
+                </div>
+                <div class="botao-continuar">
+                <button type="submit">Continuar</button>
+            </div>
+            </form>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
